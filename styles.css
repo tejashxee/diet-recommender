@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4e3; /* Light beige */
+    color: #5b3e1f; /* Dark brown */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fffbf4; /* Light brown */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #705a52; /* Darker brown */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a1887f; /* Medium brown */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #8d6e63; /* Brown */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6f4c3e; /* Darker brown */
+}
+
+.result, .diet-plan {
+    margin-top: 20px;
+    display: none;
+}
+
+.diet-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.diet-item img {
+    width: 100px; /* Set width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #8d6e63; /* Border color */
+}
+
